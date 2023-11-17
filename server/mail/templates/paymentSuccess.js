@@ -1,5 +1,5 @@
-exports.paymentSuccess = (amount, paymentId, orderId, name,lastname) => {
-    return `<!DOCTYPE html>
+exports.paymentSuccess = (amount, paymentId, orderId, name, lastname) => {
+  return `<!DOCTYPE html>
     <html>
     
     <head>
@@ -88,4 +88,4 @@ exports.paymentSuccess = (amount, paymentId, orderId, name,lastname) => {
     </body>
     
     </html>`;
-  };
+};
