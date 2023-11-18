@@ -25,7 +25,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: ["https://deploy-mern-1whq.vercel.app"],
+    origin: process.env.CORS_ORIGIN,
     methods: ["POST", "GET"],
     credentials: true,
     maxAge: 14400,
