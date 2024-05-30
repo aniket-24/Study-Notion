@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../../assets/Logo/LearnHub-Logo.jpeg";
+import logo from "../../assets/Logo/Logo-Full-Light.png";
 import { Link, matchPath } from "react-router-dom";
 import { NavbarLinks } from "../../data/navbar-links";
 import { useLocation } from "react-router-dom";
