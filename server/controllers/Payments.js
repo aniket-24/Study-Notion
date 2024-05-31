@@ -209,7 +209,7 @@ exports.sendPaymentSuccessEmail = async (req, res) => {
     const enrolledStudent = await User.findById(userId);
     await mailSender(
       enrolledStudent.email,
-      `Study NotionPayment successful`,
+      `LearnHubPayment successful`,
       paymentSuccess(
         amount / 100,
         paymentId,
