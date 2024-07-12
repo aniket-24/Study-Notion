@@ -275,7 +275,7 @@ exports.changePassword = async (req, res) => {
     try {
       const emailResponse = await mailSender(
         updatedUserDetails.email,
-        "LearnHub- Password Updated",
+        "Study Notion- Password Updated",
         passwordUpdated(
           updatedUserDetails.email,
           `Password updated successfully for ${updatedUserDetails.firstName} ${updatedUserDetails.lastName}`

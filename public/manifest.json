@@ -1,7 +1,7 @@
 {
-  "name": "LearnHub",
+  "name": "Study Notion",
   "id": "/",
-  "short_name": "LearnHub",
+  "short_name": "Study Notion",
   "description": "An Ed Tech Web App for Students and Instructors",
   "start_url": "/",
   "display": "standalone",

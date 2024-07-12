@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../../assets/Logo/LearnHub-Logo.jpeg";
+import logo from "../../assets/Logo/Logo-Full-Light.png";
 import { Link, matchPath } from "react-router-dom";
 import { NavbarLinks } from "../../data/navbar-links";
 import { useLocation } from "react-router-dom";
@@ -95,7 +95,7 @@ const NavBar = ({ setProgress }) => {
             dispatch(setProgress(100));
           }}
         >
-          <img src={logo} width={160} alt="LearnHub" height={42}></img>
+          <img src={logo} width={160} alt="Study Notion" height={42}></img>
         </Link>
         {/* mobile Navbar */}
         {user && user?.accountType !== "Instructor" && (

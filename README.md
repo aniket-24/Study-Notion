@@ -1,6 +1,6 @@
-# LearnHub
+# Study Notion
 
-LearnHubis an ED Tech (Education Technology) web application developed using the MERN stack.
+Study Notionis an ED Tech (Education Technology) web application developed using the MERN stack.
 
 ## Note
 
@@ -10,12 +10,12 @@ This project is intended as a learning tool and can be used as a sample project 
 
 ## Features
 
-- User Authentication: LearnHubprovides secure user registration and authentication using JWT (JSON Web Tokens). Users can sign up, log in, and manage their
+- User Authentication: Study Notionprovides secure user registration and authentication using JWT (JSON Web Tokens). Users can sign up, log in, and manage their
   profiles with ease.
 - Courses and Lessons: Instructors can create and edit created courses. Students can enroll in courses, access course materials, and track their progress.
-- Progress Tracking: LearnHuballows students to track their progress in enrolled courses. They can view completed lessons, scores on quizzes and
+- Progress Tracking: Study Notionallows students to track their progress in enrolled courses. They can view completed lessons, scores on quizzes and
   assignments, and overall course progress.
-- Payment Integration: LearnHubintegrates with Razorpay for payment processing. Users can make secure payments for course enrollment and other services
+- Payment Integration: Study Notionintegrates with Razorpay for payment processing. Users can make secure payments for course enrollment and other services
   using various payment methods supported by Razorpay.
 - Search Functionality: Users can easily search for courses, lessons, and resources using the built-in search feature. This makes it convenient to find relevant
   content quickly.
